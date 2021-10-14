@@ -27,13 +27,14 @@ const questions = [
         name: "usage",
     },
     {
-        type: "input",
-        message: "Are there any licenses?",
-        name: "licenses",
+        type: "list",
+        message: "What type of licence do you have?",
+        name: "license",
+        choices: ["MIT", "Apache 2.0", "BSD3", "ISC", "none"]
     },
     {
         type: "input",
-        message: "Are contributing?",
+        message: "Did anyone help with contributing?",
         name: "contribution",
     },
     {
