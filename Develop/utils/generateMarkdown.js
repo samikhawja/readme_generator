@@ -14,7 +14,7 @@ function renderLicenseLink(license) {
   if (license === "none") {
     return "";
   } else {
-    return `<li><a href="#license">License</a></li>`
+    return `\n      <li><a href="#license">License</a></li>`
   }
 }
 
@@ -42,8 +42,7 @@ function generateMarkdown(data) {
     <ol>
       <li><a href="#about-the-project">About The Project</a></li>
       <li><a href="#installation">Installation</a></li>
-      <li><a href="#usage">Usage</a></li>
-      ${renderLicenseLink(data.license)}
+      <li><a href="#usage">Usage</a></li>${renderLicenseLink(data.license)}
       <li><a href="#questions">Questions</a></li>
     </ol>
   </details>
