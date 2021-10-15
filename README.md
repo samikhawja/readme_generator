@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<img src="./assets/images/webpage.png" alt="Kanye Quotes Webpage">
+![Terminal Prompt GIF](https://media.giphy.com/media/uUh514IlnzSCDfbQyy/giphy.gif)
 
 For this application, I had to finsh the provided files to create a README generator. The user will be prompted questions in their terminal and from there, a README markdown will be generated. Per usual, this tested my knowledge with node.js and made me do a bunch of research to deliver the best application to the user. Of course, this was a fun to make and look to implementing an html to the application!
 
@@ -52,6 +52,8 @@ After that, go through the prompts and once the last question is completed, a RE
 
 <!-- USAGE EXAMPLES -->
 ## Code Snippets
+
+<img src="./assets/images/webpage.png" alt="Terminal with propmts">
 
 Below is the function I used to generate a readme markdown file. The code snippets starts with the prompt from inquirer and the response from that will console.log the report and then create a markdown called "README.md". The next part is the 'generateMarkdown' where it is a template literal for creating the template for the README.
 ```
