@@ -45,6 +45,10 @@ cd Develop
 ```
 then, the following
 ```
+npm i
+```
+then, the following
+```
 node index.js
 ```
 After that, go through the prompts and once the last question is completed, a README will generate in the Develop folder called, "README.md"
